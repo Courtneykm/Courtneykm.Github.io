@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html> 
 
+<style>
 body {
   background-color: lavender;
 }
+</style>
 
-		
+<style>		
 ul {
   list-style-type: none;
   margin: 0;
@@ -59,10 +61,11 @@ footer {
   padding: 8px 16px;
   text-decoration: none;
 }
-
+</style>
 
 <footer> 
 
+<style>
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -78,7 +81,9 @@ footer {
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
+</style>
 
+<style>
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
@@ -90,6 +95,7 @@ footer {
        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
        
        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</style>
 
 </footer>
 
