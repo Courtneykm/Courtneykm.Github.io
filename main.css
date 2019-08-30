@@ -6,8 +6,7 @@
 body {
   background-color: lavender;
 }
-</head>
-</style>
+
 		
 ul {
   list-style-type: none;
@@ -62,6 +61,7 @@ p {
 
 </style> 
 </head>
+
 
 footer { 
   display: block;
