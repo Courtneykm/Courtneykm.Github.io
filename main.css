@@ -4,7 +4,7 @@
 <style> 
 
 body {
-  background-color: lavender;
+  background-color: #ccccff;
 }
 		
 ul {
@@ -34,12 +34,12 @@ li:last-child {
 
 li a.active {
   background-color: #4CAF50;
-  color: white;
+  color: #ffffff;
 }
 
 li a:hover:not(.active) {
   background-color: #555;
-  color: white;
+  color: #ffffff;
 }
 
 </style>
@@ -49,7 +49,7 @@ li a:hover:not(.active) {
 <head>
 
 h1 {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -79,8 +79,8 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
+  background-color: #ff0000; /* Set a background color */
+  color: #ffffff; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
