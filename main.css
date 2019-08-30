@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-<head> 
-<style> 
+<html> 
 
 body {
   background-color: lavender;
@@ -43,11 +41,6 @@ li a:hover:not(.active) {
   color: white;
 }
 
-</style>
-</head>
-
-<style>
-<head>
 
 h1 {
   color: white;
@@ -59,9 +52,6 @@ p {
   font-size: 20px;
 }
 
-</style> 
-</head>
-
 
 footer { 
   display: block;
@@ -70,7 +60,7 @@ footer {
   text-decoration: none;
 }
 
-<style>
+
 <footer> 
 
 #myBtn {
@@ -101,7 +91,6 @@ footer {
        
        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
-</style>
 </footer>
 
 </html> 
