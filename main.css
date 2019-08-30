@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
+<head> 
+<style> 
 
-<head>
-		<style>
+body {
+  background-color: lavender;
+}
+		
 ul {
   list-style-type: none;
   margin: 0;
@@ -43,10 +47,6 @@ li a:hover:not(.active) {
 
 <style>
 <head>
-
-body {
-  background-color: lavender;
-}
 
 h1 {
   color: white;
