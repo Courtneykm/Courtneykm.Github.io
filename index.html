@@ -61,35 +61,50 @@ li a:hover {
       
 <style> 
 	
-	.column {
+	}
+	
+.column {
   float: left;
-  width: 33.33%;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+	
+/* Left and right column */
+.column.side {
+  width: 25%;
 }
-}
+	
+/* Middle column */
+.column.middle {
+  width: 50%;
+	}
+	
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+	
 	</style>
 	
 	<body>
+	<div class="row">
 		
 	<div class="row">
-  <div class="column">
+  <div class="column side">
     <h2>Column</h2>
 	  <p> PARAGRAPH </p>
+		</div>
 	  
 	   <div class="column">
     <h2>Column</h2>
-    <p> paragraph </p/
+		   <p> paragraph </p>
+		</div>
 	    
-	     <div class="column">
+	     <div class="column side">
     <h2>Column</h2>
-	  <p> paragraph </p>
+	  <p> paragraph 2 </p>
+		</div>
   
+	  </div>
 		   </body>
 
 </html>
