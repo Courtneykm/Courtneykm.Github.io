@@ -31,14 +31,13 @@ li a:hover {
   border-right: 1px solid #bbb;
 }
 	
-
 </style>
 </head>
-
-
 </body>
 
 
-
+p {
+  font-size: 14px;
+}
 
 </html> 
