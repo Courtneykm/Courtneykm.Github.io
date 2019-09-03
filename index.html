@@ -57,31 +57,29 @@ li a:hover {
     </body>
         
 	<h1> Welcome to my website! </h1>
-	<body> My website is split into 3 sections. Learn about them below </body>
+	<body> My website is split into 3 sections. Learn about them below. </body>
       
 <style> 
 	
-	}
-	
+	/* Create three equal columns that floats next to each other */
 .column {
   float: left;
+  width: 33.33%;
 }
-	
-/* Left and right column */
-.column.side {
-  width: 25%;
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-	
-/* Middle column */
-.column.middle {
-  width: 50%;
-	}
-	
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+  .column {
     width: 100%;
   }
+}
 	
 	</style>
 	
@@ -89,17 +87,17 @@ li a:hover {
 	<div class="row">
 		
 	<div class="row">
-  <div class="column side">
+  <div class="column ">
     <h2>Column</h2>
 	  <p> PARAGRAPH </p>
 		</div>
 	  
-	   <div class="column middle">
+	   <div class="column ">
     <h2>Column</h2>
 		   <p> paragraph </p>
 		</div>
 	    
-	     <div class="column side">
+	     <div class="column ">
     <h2>Column</h2>
 	  <p> paragraph 2 </p>
 		</div>
