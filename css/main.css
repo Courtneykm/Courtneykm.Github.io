@@ -6,6 +6,8 @@ body {
   background-color: lavender;
 }
 
+/* This is my navigation bar */
+
 	ul {
   list-style-type: none;
   margin: 0;
@@ -35,10 +37,13 @@ li a:hover {
 </head>
 </body>
 
+/* Font size */
 
 p {
   font-size: 25px;
 }
+
+/* This is the image gallery */
 
 <style>
 div.gallery {
